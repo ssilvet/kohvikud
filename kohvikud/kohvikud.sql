@@ -32,7 +32,7 @@ CREATE TABLE `hinnangud` (
   `nimi` varchar(255) NOT NULL,
   `kommentaar` varchar(255) NOT NULL,
   `hinnang` int(2) NOT NULL,
-  `toidukoha_id` int(6) NOT NULL
+  `toidukohad_id` int(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
